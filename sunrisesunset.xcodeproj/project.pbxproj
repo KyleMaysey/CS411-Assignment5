@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7651EACA174182500008F644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7651EAC9174182500008F644 /* UIKit.framework */; };
+		7651EACC174182500008F644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7651EACB174182500008F644 /* Foundation.framework */; };
+		7651EACE174182500008F644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7651EACD174182500008F644 /* CoreGraphics.framework */; };
+		7651EAD4174182500008F644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7651EAD2174182500008F644 /* InfoPlist.strings */; };
+		7651EAD6174182500008F644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651EAD5174182500008F644 /* main.m */; };
+		7651EADA174182500008F644 /* sunrisesunsetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651EAD9174182500008F644 /* sunrisesunsetAppDelegate.m */; };
+		7651EADC174182500008F644 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7651EADB174182500008F644 /* Default.png */; };
+		7651EADE174182500008F644 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7651EADD174182500008F644 /* Default@2x.png */; };
+		7651EAE0174182500008F644 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7651EADF174182500008F644 /* Default-568h@2x.png */; };
+		7651EAE3174182500008F644 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7651EAE1174182500008F644 /* MainStoryboard.storyboard */; };
+		7651EAE6174182500008F644 /* sunrisesunsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651EAE5174182500008F644 /* sunrisesunsetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7651EAC6174182500008F644 /* sunrisesunset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunrisesunset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7651EAC9174182500008F644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7651EACB174182500008F644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7651EACD174182500008F644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7651EAD1174182500008F644 /* sunrisesunset-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sunrisesunset-Info.plist"; sourceTree = "<group>"; };
+		7651EAD3174182500008F644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7651EAD5174182500008F644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7651EAD7174182500008F644 /* sunrisesunset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sunrisesunset-Prefix.pch"; sourceTree = "<group>"; };
+		7651EAD8174182500008F644 /* sunrisesunsetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunrisesunsetAppDelegate.h; sourceTree = "<group>"; };
+		7651EAD9174182500008F644 /* sunrisesunsetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunrisesunsetAppDelegate.m; sourceTree = "<group>"; };
+		7651EADB174182500008F644 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7651EADD174182500008F644 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7651EADF174182500008F644 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7651EAE2174182500008F644 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7651EAE4174182500008F644 /* sunrisesunsetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunrisesunsetViewController.h; sourceTree = "<group>"; };
+		7651EAE5174182500008F644 /* sunrisesunsetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunrisesunsetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7651EAC3174182500008F644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7651EACA174182500008F644 /* UIKit.framework in Frameworks */,
+				7651EACC174182500008F644 /* Foundation.framework in Frameworks */,
+				7651EACE174182500008F644 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7651EABD174182500008F644 = {
+			isa = PBXGroup;
+			children = (
+				7651EACF174182500008F644 /* sunrisesunset */,
+				7651EAC8174182500008F644 /* Frameworks */,
+				7651EAC7174182500008F644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7651EAC7174182500008F644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7651EAC6174182500008F644 /* sunrisesunset.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7651EAC8174182500008F644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7651EAC9174182500008F644 /* UIKit.framework */,
+				7651EACB174182500008F644 /* Foundation.framework */,
+				7651EACD174182500008F644 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7651EACF174182500008F644 /* sunrisesunset */ = {
+			isa = PBXGroup;
+			children = (
+				7651EAD8174182500008F644 /* sunrisesunsetAppDelegate.h */,
+				7651EAD9174182500008F644 /* sunrisesunsetAppDelegate.m */,
+				7651EAE1174182500008F644 /* MainStoryboard.storyboard */,
+				7651EAE4174182500008F644 /* sunrisesunsetViewController.h */,
+				7651EAE5174182500008F644 /* sunrisesunsetViewController.m */,
+				7651EAD0174182500008F644 /* Supporting Files */,
+			);
+			path = sunrisesunset;
+			sourceTree = "<group>";
+		};
+		7651EAD0174182500008F644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7651EAD1174182500008F644 /* sunrisesunset-Info.plist */,
+				7651EAD2174182500008F644 /* InfoPlist.strings */,
+				7651EAD5174182500008F644 /* main.m */,
+				7651EAD7174182500008F644 /* sunrisesunset-Prefix.pch */,
+				7651EADB174182500008F644 /* Default.png */,
+				7651EADD174182500008F644 /* Default@2x.png */,
+				7651EADF174182500008F644 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7651EAC5174182500008F644 /* sunrisesunset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7651EAE9174182500008F644 /* Build configuration list for PBXNativeTarget "sunrisesunset" */;
+			buildPhases = (
+				7651EAC2174182500008F644 /* Sources */,
+				7651EAC3174182500008F644 /* Frameworks */,
+				7651EAC4174182500008F644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sunrisesunset;
+			productName = sunrisesunset;
+			productReference = 7651EAC6174182500008F644 /* sunrisesunset.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7651EABE174182500008F644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = sunrisesunset;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kyle Maysey";
+			};
+			buildConfigurationList = 7651EAC1174182500008F644 /* Build configuration list for PBXProject "sunrisesunset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7651EABD174182500008F644;
+			productRefGroup = 7651EAC7174182500008F644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7651EAC5174182500008F644 /* sunrisesunset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7651EAC4174182500008F644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7651EAD4174182500008F644 /* InfoPlist.strings in Resources */,
+				7651EADC174182500008F644 /* Default.png in Resources */,
+				7651EADE174182500008F644 /* Default@2x.png in Resources */,
+				7651EAE0174182500008F644 /* Default-568h@2x.png in Resources */,
+				7651EAE3174182500008F644 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7651EAC2174182500008F644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7651EAD6174182500008F644 /* main.m in Sources */,
+				7651EADA174182500008F644 /* sunrisesunsetAppDelegate.m in Sources */,
+				7651EAE6174182500008F644 /* sunrisesunsetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7651EAD2174182500008F644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7651EAD3174182500008F644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7651EAE1174182500008F644 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7651EAE2174182500008F644 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7651EAE7174182500008F644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7651EAE8174182500008F644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7651EAEA174182500008F644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sunrisesunset/sunrisesunset-Prefix.pch";
+				INFOPLIST_FILE = "sunrisesunset/sunrisesunset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7651EAEB174182500008F644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sunrisesunset/sunrisesunset-Prefix.pch";
+				INFOPLIST_FILE = "sunrisesunset/sunrisesunset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7651EAC1174182500008F644 /* Build configuration list for PBXProject "sunrisesunset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7651EAE7174182500008F644 /* Debug */,
+				7651EAE8174182500008F644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7651EAE9174182500008F644 /* Build configuration list for PBXNativeTarget "sunrisesunset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7651EAEA174182500008F644 /* Debug */,
+				7651EAEB174182500008F644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7651EABE174182500008F644 /* Project object */;
+}
