@@ -18,6 +18,15 @@
 		7651EAE0174182500008F644 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7651EADF174182500008F644 /* Default-568h@2x.png */; };
 		7651EAE3174182500008F644 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7651EAE1174182500008F644 /* MainStoryboard.storyboard */; };
 		7651EAE6174182500008F644 /* sunrisesunsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651EAE5174182500008F644 /* sunrisesunsetViewController.m */; };
+		767F5073174185F0004C656B /* libiOSnova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 767F5072174185F0004C656B /* libiOSnova.a */; };
+		767F509A1747077A004C656B /* introViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F50991747077A004C656B /* introViewController.m */; };
+		767F509D17470D9F004C656B /* CitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F509C17470D9F004C656B /* CitiesTableViewController.m */; };
+		767F50A017470DEF004C656B /* CitiesDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F509F17470DEF004C656B /* CitiesDatabase.m */; };
+		767F50A417473A1F004C656B /* StateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F50A317473A1F004C656B /* StateTableViewController.m */; };
+		767F50A617473BE2004C656B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 767F50A517473BE2004C656B /* libsqlite3.dylib */; };
+		767F50A717474460004C656B /* us_cities_with_timezones.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = 767F50A117470EBE004C656B /* us_cities_with_timezones.sl3 */; };
+		76E8FC4A1747F29000FF4BBF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E8FC491747F29000FF4BBF /* CoreLocation.framework */; };
+		76E8FC4F17482A4400FF4BBF /* daylightBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E8FC4E17482A4400FF4BBF /* daylightBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,20 @@
 		7651EAE2174182500008F644 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7651EAE4174182500008F644 /* sunrisesunsetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunrisesunsetViewController.h; sourceTree = "<group>"; };
 		7651EAE5174182500008F644 /* sunrisesunsetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunrisesunsetViewController.m; sourceTree = "<group>"; };
+		767F5072174185F0004C656B /* libiOSnova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiOSnova.a; path = "../../ClassRepo/CS411SampleCode/libnova/iOSnova/iOSnova/build/Release-iphoneos/libiOSnova.a"; sourceTree = "<group>"; };
+		767F50981747077A004C656B /* introViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introViewController.h; sourceTree = "<group>"; };
+		767F50991747077A004C656B /* introViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introViewController.m; sourceTree = "<group>"; };
+		767F509B17470D9F004C656B /* CitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesTableViewController.h; sourceTree = "<group>"; };
+		767F509C17470D9F004C656B /* CitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesTableViewController.m; sourceTree = "<group>"; };
+		767F509E17470DEF004C656B /* CitiesDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesDatabase.h; sourceTree = "<group>"; };
+		767F509F17470DEF004C656B /* CitiesDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesDatabase.m; sourceTree = "<group>"; };
+		767F50A117470EBE004C656B /* us_cities_with_timezones.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = us_cities_with_timezones.sl3; sourceTree = "<group>"; };
+		767F50A217473A1F004C656B /* StateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateTableViewController.h; sourceTree = "<group>"; };
+		767F50A317473A1F004C656B /* StateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTableViewController.m; sourceTree = "<group>"; };
+		767F50A517473BE2004C656B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		76E8FC491747F29000FF4BBF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		76E8FC4D17482A4400FF4BBF /* daylightBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = daylightBarView.h; sourceTree = "<group>"; };
+		76E8FC4E17482A4400FF4BBF /* daylightBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = daylightBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E8FC4A1747F29000FF4BBF /* CoreLocation.framework in Frameworks */,
+				767F50A617473BE2004C656B /* libsqlite3.dylib in Frameworks */,
+				767F5073174185F0004C656B /* libiOSnova.a in Frameworks */,
 				7651EACA174182500008F644 /* UIKit.framework in Frameworks */,
 				7651EACC174182500008F644 /* Foundation.framework in Frameworks */,
 				7651EACE174182500008F644 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +82,7 @@
 		7651EABD174182500008F644 = {
 			isa = PBXGroup;
 			children = (
+				767F5072174185F0004C656B /* libiOSnova.a */,
 				7651EACF174182500008F644 /* sunrisesunset */,
 				7651EAC8174182500008F644 /* Frameworks */,
 				7651EAC7174182500008F644 /* Products */,
@@ -73,6 +100,8 @@
 		7651EAC8174182500008F644 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				767F50A517473BE2004C656B /* libsqlite3.dylib */,
+				76E8FC491747F29000FF4BBF /* CoreLocation.framework */,
 				7651EAC9174182500008F644 /* UIKit.framework */,
 				7651EACB174182500008F644 /* Foundation.framework */,
 				7651EACD174182500008F644 /* CoreGraphics.framework */,
@@ -88,6 +117,16 @@
 				7651EAE1174182500008F644 /* MainStoryboard.storyboard */,
 				7651EAE4174182500008F644 /* sunrisesunsetViewController.h */,
 				7651EAE5174182500008F644 /* sunrisesunsetViewController.m */,
+				767F50981747077A004C656B /* introViewController.h */,
+				767F50991747077A004C656B /* introViewController.m */,
+				767F509B17470D9F004C656B /* CitiesTableViewController.h */,
+				767F509C17470D9F004C656B /* CitiesTableViewController.m */,
+				767F509E17470DEF004C656B /* CitiesDatabase.h */,
+				767F509F17470DEF004C656B /* CitiesDatabase.m */,
+				767F50A217473A1F004C656B /* StateTableViewController.h */,
+				767F50A317473A1F004C656B /* StateTableViewController.m */,
+				76E8FC4D17482A4400FF4BBF /* daylightBarView.h */,
+				76E8FC4E17482A4400FF4BBF /* daylightBarView.m */,
 				7651EAD0174182500008F644 /* Supporting Files */,
 			);
 			path = sunrisesunset;
@@ -96,6 +135,7 @@
 		7651EAD0174182500008F644 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				767F50A117470EBE004C656B /* us_cities_with_timezones.sl3 */,
 				7651EAD1174182500008F644 /* sunrisesunset-Info.plist */,
 				7651EAD2174182500008F644 /* InfoPlist.strings */,
 				7651EAD5174182500008F644 /* main.m */,
@@ -159,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767F50A717474460004C656B /* us_cities_with_timezones.sl3 in Resources */,
 				7651EAD4174182500008F644 /* InfoPlist.strings in Resources */,
 				7651EADC174182500008F644 /* Default.png in Resources */,
 				7651EADE174182500008F644 /* Default@2x.png in Resources */,
@@ -177,6 +218,11 @@
 				7651EAD6174182500008F644 /* main.m in Sources */,
 				7651EADA174182500008F644 /* sunrisesunsetAppDelegate.m in Sources */,
 				7651EAE6174182500008F644 /* sunrisesunsetViewController.m in Sources */,
+				767F509A1747077A004C656B /* introViewController.m in Sources */,
+				767F509D17470D9F004C656B /* CitiesTableViewController.m in Sources */,
+				767F50A017470DEF004C656B /* CitiesDatabase.m in Sources */,
+				767F50A417473A1F004C656B /* StateTableViewController.m in Sources */,
+				76E8FC4F17482A4400FF4BBF /* daylightBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +309,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sunrisesunset/sunrisesunset-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				INFOPLIST_FILE = "sunrisesunset/sunrisesunset-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCSOURCE)/libnova",
+					/usr/local/include/libnova,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,7 +326,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sunrisesunset/sunrisesunset-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				INFOPLIST_FILE = "sunrisesunset/sunrisesunset-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCSOURCE)/libnova",
+					/usr/local/include/libnova,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +357,7 @@
 				7651EAEB174182500008F644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

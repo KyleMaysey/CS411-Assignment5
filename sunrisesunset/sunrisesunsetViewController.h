@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "daylightBarView.h"
 
 @interface sunrisesunsetViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *riseTime;
+@property (weak, nonatomic) IBOutlet UILabel *setTime;
+@property (nonatomic, weak) NSNumber* cLongitude;
+@property (nonatomic, weak) NSNumber* cLatitude;
+@property (strong, nonatomic) IBOutlet daylightBarView* lightBar;
 
 @end
